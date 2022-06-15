@@ -1,0 +1,10 @@
+package com.capstone.capstoneprojectbackend1.controller;
+
+import com.capstone.capstoneprojectbackend.controller.RequestMapping;
+import com.capstone.capstoneprojectbackend.controller.RestController;
+
+@RestController
+@RequestMapping("/admin")
+public class AdminController {
+
+}

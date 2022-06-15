@@ -1,0 +1,74 @@
+package com.capstone.capstonebackend.model;
+
+public class Engineer {
+	
+	private String name;
+	private int age;
+	private String address;
+	private int phonenumber;
+	private String area;
+	private int salary;
+	private String timings;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public int getPhonenumber() {
+		return phonenumber;
+	}
+	public void setPhonenumber(int phonenumber) {
+		this.phonenumber = phonenumber;
+	}
+	public String getArea() {
+		return area;
+	}
+	public void setArea(String area) {
+		this.area = area;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	public String getTimings() {
+		return timings;
+	}
+	public void setTimings(String timings) {
+		this.timings = timings;
+	}
+	@Override
+	public String toString() {
+		return "Engineer [name=" + name + ", age=" + age + ", address=" + address + ", phonenumber=" + phonenumber
+				+ ", area=" + area + ", salary=" + salary + ", timings=" + timings + "]";
+	}
+	public Engineer(String name, int age, String address, int phonenumber, String area, int salary, String timings) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.address = address;
+		this.phonenumber = phonenumber;
+		this.area = area;
+		this.salary = salary;
+		this.timings = timings;
+	}
+	
+	public Engineer() {
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.capstone.capstonebackend.model;
+
+public class CustomerLogin {
+
+}

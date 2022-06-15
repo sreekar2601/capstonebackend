@@ -1,0 +1,9 @@
+package com.capstone.capstoneprojectbackend1.repository;
+
+import com.capstone.capstoneprojectbackend1.model.Admin;
+
+public interface AdminRepo {
+
+	Admin findByAdminusername(String username);
+
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.capstone.capstoneprojectbackend.repository.AdminRepo"/>
+    <fullyQualifiedTypeName name="com.capstone.capstoneprojectbackend.model.Admin"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"/>
+    <fullyQualifiedTypeName name="com.capstone.capstoneprojectbackend1.repository.AdminRepo"/>
+    <fullyQualifiedTypeName name="com.capstone.capstoneprojectbackend1.model.Admin"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.repository.EngineerRepository"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.model.Engineer"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.model.CustomerLogin"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.repository.CustomerLoginRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.repository.ManagerLoginRepository"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.model.ManagerLogin"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.repository.EngineerLoginRepository"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.model.EngineerLogin"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.repository.CustomerComplaintRepository"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.model.CustomerComplaint"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.repository.CustomerRepository"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.model.Customer"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.repository.AssignEngineerRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.model.AssignEngineer"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="com.capstone.capstonebackend.exception.ResourceNotFoundException"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+</qualifiedTypeNameHistroy>

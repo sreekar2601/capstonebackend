@@ -1,0 +1,5 @@
+package com.capstone.capstoneprojectbackend1.repository;
+
+public interface AdminRepo {
+
+}

@@ -1,0 +1,9 @@
+package com.capstone.capstonebackend.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.capstone.capstonebackend.model.CustomerLogin;
+
+public interface CustomerLoginRepository extends JpaRepository<CustomerLogin,String>{
+
+}

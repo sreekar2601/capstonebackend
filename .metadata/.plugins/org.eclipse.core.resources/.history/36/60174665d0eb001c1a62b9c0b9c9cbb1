@@ -1,0 +1,5 @@
+package com.capstone.capstonebackend.repository;
+
+public interface EngineerLoginRepository {
+
+}

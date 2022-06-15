@@ -1,0 +1,19 @@
+package com.capstone.capstonebackend.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="customercomplaint")
+public class CustomerComplaint {
+	
+	@Id
+	
+	private String name;
+	private String address;
+	private int pincode;
+	private double phonenumber;
+	private String typeofproblem;
+
+}

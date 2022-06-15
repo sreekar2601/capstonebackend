@@ -1,0 +1,23 @@
+package com.capstone.capstonebackend.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capstone.capstonebackend.model.Manager;
+import com.capstone.capstonebackend.repository.ManagerRepository;
+
+@RestController
+@RequestMapping("/manager")
+public class ManagerController {
+	
+	@Autowired
+	private ManagerRepository managerrepo;
+	
+	@PostMapping
+	public Manager createManager(Manager manager) {
+		return managerrepo.save(manager);
+	}
+
+}

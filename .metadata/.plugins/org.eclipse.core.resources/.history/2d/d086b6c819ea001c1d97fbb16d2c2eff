@@ -1,0 +1,74 @@
+package com.capstone.capstonebackend.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="managers")
+public class Manager {
+	
+	private String name;
+	private int age;
+	private String address;
+	private double phonenumber;
+	private String area;
+	private int salary;
+	private String timings;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public double getPhonenumber() {
+		return phonenumber;
+	}
+	public void setPhonenumber(double phonenumber) {
+		this.phonenumber = phonenumber;
+	}
+	public String getArea() {
+		return area;
+	}
+	public void setArea(String area) {
+		this.area = area;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	public String getTimings() {
+		return timings;
+	}
+	public void setTimings(String timings) {
+		this.timings = timings;
+	}
+	public Manager(String name, int age, String address, double phonenumber, String area, int salary, String timings) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.address = address;
+		this.phonenumber = phonenumber;
+		this.area = area;
+		this.salary = salary;
+		this.timings = timings;
+	}
+	
+	public Manager() {
+		
+	}
+
+}

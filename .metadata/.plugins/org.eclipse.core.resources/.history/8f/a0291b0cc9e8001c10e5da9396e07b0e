@@ -1,0 +1,5 @@
+package com.capstone.capstoneprojectbackend.exception;
+
+public class ResourceNotFoundException {
+
+}

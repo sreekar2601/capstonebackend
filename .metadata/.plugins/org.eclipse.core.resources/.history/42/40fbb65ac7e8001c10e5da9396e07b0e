@@ -1,0 +1,5 @@
+package com.capstone.capstoneprojectbackend.model;
+
+public class Admin {
+
+}

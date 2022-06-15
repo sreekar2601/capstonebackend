@@ -1,0 +1,18 @@
+package com.capstone.capstoneprojectbackend1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan({"com.capstone.capstoneprojectbackend1.repository","com.capstone.capstoneprojectbackend1.controller","com.capstone.capstoneprojectbackend1.model"})
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class }) 
+
+public class CapstoneprojectBackend1Application extends SpringBootServletInitializer {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CapstoneprojectBackend1Application.class, args);
+	}
+
+}

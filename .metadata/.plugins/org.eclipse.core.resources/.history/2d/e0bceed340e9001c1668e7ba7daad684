@@ -1,0 +1,12 @@
+package com.capstone.capstoneprojectbackend1.repository;
+
+import org.springframework.stereotype.Repository;
+
+import com.capstone.capstoneprojectbackend1.model.Admin;
+
+@Repository
+public interface AdminRepo {
+
+	Admin findByAdminusername(String username);
+
+}
